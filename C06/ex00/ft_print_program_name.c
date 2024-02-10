@@ -6,21 +6,21 @@
 /*   By: ocubukcu <ocubukcu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/10 22:50:25 by ocubukcu          #+#    #+#             */
-/*   Updated: 2024/02/10 23:03:00 by ocubukcu         ###   ########.fr       */
+/*   Updated: 2024/02/11 00:20:41 by ocubukcu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int	main(int ac, char **av)
+int main(int ac, char **av)
 {
-	int	i;
+	int i;
 
 	i = 0;
-	while (av[0][i])
+	while (av[0][i]) // Programın adının i'nci karakteri null karakter olana kadar döngü devam eder.
 	{
-		write(1, &av[0][i], 1);
-		i++;
+		write(1, &av[0][i], 1); // Karakteri standart çıkışa yazdırırız.
+		i++; // Sonraki karaktere geçmek için i'yi artırırız.
 	}
-	write (1, "\n", 1);
+	write(1, "\n", 1); // Program adının sonunda yeni bir satır ekleriz.
 }
