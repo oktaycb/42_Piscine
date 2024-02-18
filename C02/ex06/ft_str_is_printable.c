@@ -6,7 +6,7 @@
 /*   By: ocubukcu <ocubukcu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/04 21:57:33 by ocubukcu          #+#    #+#             */
-/*   Updated: 2024/02/04 21:57:35 by ocubukcu         ###   ########.tr       */
+/*   Updated: 2024/02/10 16:32:23 by ocubukcu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@ int	ft_str_is_printable(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i])
+	while (i[str])
 	{
-		if (!(str[i] >= 32 && str[i] <= 126))
+		if (!(i[str] >= 32 && i[str] <= 126))
 		{
 			return (0);
 		}

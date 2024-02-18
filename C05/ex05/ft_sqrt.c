@@ -6,13 +6,13 @@
 /*   By: ocubukcu <ocubukcu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/10 22:28:10 by ocubukcu          #+#    #+#             */
-/*   Updated: 2024/02/12 12:38:08 by ocubukcu         ###   ########.fr       */
+/*   Updated: 2024/02/12 12:44:37 by ocubukcu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
- #include <stdio.h>
+#include <stdio.h>
 
-int ft_sqrt(int nb)
+int	ft_sqrt(int nb)
 {
 	int	sqrt;
 

@@ -6,7 +6,7 @@
 /*   By: ocubukcu <ocubukcu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/04 21:56:44 by ocubukcu          #+#    #+#             */
-/*   Updated: 2024/02/04 21:56:45 by ocubukcu         ###   ########.tr       */
+/*   Updated: 2024/02/10 16:32:23 by ocubukcu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,9 +15,9 @@ int	ft_str_is_numeric(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i])
+	while (i[str])
 	{
-		if (!(str[i] >= 48 && str [i] <= 57))
+		if (!(i[str] >= 48 && str [i] <= 57))
 		{
 			return (0);
 		}

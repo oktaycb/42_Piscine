@@ -6,7 +6,7 @@
 /*   By: ocubukcu <ocubukcu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/04 21:57:43 by ocubukcu          #+#    #+#             */
-/*   Updated: 2024/02/04 21:57:45 by ocubukcu         ###   ########.tr       */
+/*   Updated: 2024/02/10 16:32:23 by ocubukcu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@ char	*ft_strupcase(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i])
+	while (i[str])
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (i[str] >= 'a' && i[str] <= 'z')
 		{
-			str[i] -= 32;
+			i[str] -= 32;
 		}
 		i++;
 	}

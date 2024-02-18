@@ -6,7 +6,7 @@
 /*   By: ocubukcu <ocubukcu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/04 21:58:10 by ocubukcu          #+#    #+#             */
-/*   Updated: 2024/02/04 21:58:11 by ocubukcu         ###   ########.tr       */
+/*   Updated: 2024/02/10 16:32:23 by ocubukcu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@ char	*ft_strlowcase(char *str)
 	int	i;
 
 	i = 0;
-	while (str[i])
+	while (i[str])
 	{
-		if (str[i] >= 'A' && str[i] <= 'Z')
+		if (i[str] >= 'A' && i[str] <= 'Z')
 		{
-			str[i] += 32;
+			i[str] += 32;
 		}
 		i++;
 	}
@@ -34,17 +34,17 @@ char	*ft_strcapitalize(char *str)
 	i = 0;
 	i1 = 1;
 	ft_strlowcase(str);
-	while (str[i] != '\0')
+	while (i[str] != '\0')
 	{
-		if (str[i] >= 'a' && str[i] <= 'z')
+		if (i[str] >= 'a' && i[str] <= 'z')
 		{
 			if (i1 == 1)
 			{
-				str[i] -= 32;
+				i[str] -= 32;
 				i1 = 0;
 			}
 		}
-		else if (str[i] >= '0' && str[i] <= '9')
+		else if (i[str] >= '0' && i[str] <= '9')
 			i1 = 0;
 		else
 			i1 = 1;

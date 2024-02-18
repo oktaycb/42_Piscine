@@ -6,7 +6,7 @@
 /*   By: ocubukcu <ocubukcu@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 15:20:44 by ocubukcu          #+#    #+#             */
-/*   Updated: 2024/02/06 15:30:25 by ocubukcu         ###   ########.fr       */
+/*   Updated: 2024/02/10 16:32:23 by ocubukcu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,14 @@ char *ft_strstr(char *str, char *to_find) {
         return str;
 
     i = 0;
-    while (str[i]) {
+    while (i[str]) {
         f = 0;
 
         while (str[i + f] == to_find[f] && str[i + f])
             f++;
 
         if (to_find[f] == '\0')
-            return &str[i];
+            return &i[str];
 
         i++;
     }
